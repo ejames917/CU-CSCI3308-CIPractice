@@ -1,0 +1,6 @@
+language: C
+
+script:
+  - make clean
+  - make
+  - ./geometry_test
