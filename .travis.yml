@@ -1,5 +1,8 @@
 language: C
 
+install:
+  -"sudo apt-get install check"
+
 script:
   - make clean
   - make
